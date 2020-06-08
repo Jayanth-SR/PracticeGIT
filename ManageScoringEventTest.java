@@ -19,9 +19,7 @@ public class ManageScoringEventTest extends ExecutionContext implements ManageSc
     ManageScoringEventPage manageScoringEventPage = new ManageScoringEventPage();
     ScoringEventController scoringEventController = new ScoringEventController();
 
-    public void v_LaunchpadPage(){
-
-    }
+    
 
     public void e_ClickOnAppIcon(){
         DriverHelper.waitUntilLoaderInvisible();
